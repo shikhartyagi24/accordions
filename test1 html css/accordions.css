@@ -1,0 +1,36 @@
+*{
+	margin: 0px;
+}
+.title{  
+ display: block;
+ background-color: #5637b5;
+ font-size: 22px;
+ color:white;
+ width:100%;
+ height:35px;
+ line-height:45px;
+ border:0px;
+
+}
+.para{
+	margin: 0;
+	height:0;
+	overflow: hidden;
+	text-indent: 50px;
+	line-height:1.3;
+	transition: .4s; 
+
+}
+.content input{
+	display: none; 
+}
+.content input:checked ~.para{
+height:auto;
+border-bottom-color: grey;
+border-bottom-style: solid;
+border-bottom-width: 1px;
+
+}
+.light{
+	color: grey;
+}
